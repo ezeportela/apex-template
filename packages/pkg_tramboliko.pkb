@@ -4,6 +4,8 @@ CREATE OR REPLACE PACKAGE BODY pkg_tramboliko AS
   AS 
   begin
     dbms_output.put_line(mensaje);
+    pkg_test.prc_goodbye('hola');
+    dbms_output.put_line('arbolada');
   end;
 
 END pkg_tramboliko;

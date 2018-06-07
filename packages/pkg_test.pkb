@@ -9,10 +9,11 @@ CREATE OR REPLACE PACKAGE BODY PKG_TEST AS
    1.1        7/6/2018      eportela       1. Created this package body.
 ******************************************************************************/
 
-  PROCEDURE MyProcedure(Param1 IN NUMBER) IS
+  PROCEDURE prc_goodbye(Param1 IN NUMBER) IS
     TmpVar NUMBER;
   BEGIN
     TmpVar := Param1;
+    dbms_output.put_line('otra cosa');
   END;
 
 END PKG_TEST;
