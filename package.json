@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "backup": "sql portela/portela@localhost:1521/xe @backup",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "backup": "echo @apex/backup | sql portela/portela@localhost:1521/xe"
   },
   "author": "",
   "license": "MIT"

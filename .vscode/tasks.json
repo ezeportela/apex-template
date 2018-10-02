@@ -17,7 +17,7 @@
 
   // first argument is the database connection string
   // second argument is the file to execute (ie the current file)
-  "args": ["hr/hr@//claro:1521/xe", "@\"${file}\""],
+  "args": ["hr/HR@//localhost:1521/xe", "@\"${file}\""],
 
   // do not switch to the output pane automatically
   "showOutput": "silent",
